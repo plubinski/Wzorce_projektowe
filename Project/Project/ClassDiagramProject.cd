@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project.Director">
+    <Position X="27.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAACAE=</HashCode>
+      <FileName>Builder\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.VehicleBuilder" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAIAAAAAAAAAEAAAACgAAAAA=</HashCode>
+      <FileName>Builder\VehicleBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project.BicycleDecorator">
+    <Position X="11.25" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAgAAAAQAAAEAAQAAAAAAAAABAAAAAAAgAIAA=</HashCode>
+      <FileName>Decorator\BicycleDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.BusDecorator">
+    <Position X="13.5" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAgAAAAQAAAEAAQAAAAAAAAABAAAAAAAgAIAA=</HashCode>
+      <FileName>Decorator\BusDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.CarDecorator">
+    <Position X="9" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAgAAAAQAAAEAAQAAAAAAAAABAAAAAAAgAIAA=</HashCode>
+      <FileName>Decorator\CarDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Context">
+    <Position X="9" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEEAgAAAAQAAAEAASAAAAAAAAABAAAAAAAgAIAA=</HashCode>
+      <FileName>Decorator\Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Decorator">
+    <Position X="13.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEEAgAAAAQAAAEAAQAAAAAAAABAAAAAAAEgAIAA=</HashCode>
+      <FileName>Decorator\Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Vehicle">
+    <Position X="11.25" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEEAgABAAQQAAEAAQAEACAAAAABYBwAAAAgAIAA=</HashCode>
+      <FileName>Decorator\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Backward">
+    <Position X="19.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\Backward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Forward">
+    <Position X="12.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\Forward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Idle">
+    <Position X="17.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\Idle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Left">
+    <Position X="22.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\Left.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.LeftBackward">
+    <Position X="16" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\LeftBackward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.LeftForward">
+    <Position X="21.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\LeftForward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Right">
+    <Position X="15" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\Right.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.RightBackward">
+    <Position X="20" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\RightBackward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.RightForward">
+    <Position X="13.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAQAAgAAAAEAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\RightForward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.State">
+    <Position X="17.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAYABgAAAAAAAAAAAAAAEAAAAAAAgAAQBAA=</HashCode>
+      <FileName>State\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Program">
+    <Position X="25.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Singleton">
+    <Position X="31" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAEAAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Project.IBuilder">
+    <Position X="25.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAgAAAAA=</HashCode>
+      <FileName>Builder\IBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

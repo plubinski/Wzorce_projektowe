@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "815tE5piD6uK+AM0576fLHVLaNWSRdnU+z10XKpQhwXoQ2gQlQgCEnwWTLZNqy2nhd8cXgu25zQo3gTizZ5VZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pawel.lubinski\\Desktop\\Projekt Wzorce\\Project\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pawel.lubinski\\.nuget\\packages\\mailkit\\3.3.0\\mailkit.3.3.0.nupkg.sha512",
+    "C:\\Users\\pawel.lubinski\\.nuget\\packages\\mimekit\\3.3.0\\mimekit.3.3.0.nupkg.sha512",
+    "C:\\Users\\pawel.lubinski\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\pawel.lubinski\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
+    "C:\\Users\\pawel.lubinski\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
+    "C:\\Users\\pawel.lubinski\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0\\system.security.cryptography.pkcs.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
